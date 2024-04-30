@@ -1,3 +1,22 @@
-Start testing: Apr 30 15:36 CEST
+Start testing: Apr 30 17:55 CEST
 ----------------------------------------------------------
-End testing: Apr 30 15:36 CEST
+1/1 Testing: CryptoTest
+1/1 Test: CryptoTest
+Command: "/home/pop_os/CLionProjects/crypto/cmake-build-debug/output/Crypto/CryptoTest"
+Directory: /home/pop_os/CLionProjects/crypto/cmake-build-debug/tests
+"CryptoTest" start time: Apr 30 17:55 CEST
+Output:
+----------------------------------------------------------
+Randomness seeded to: 2397019228
+===============================================================================
+All tests passed (11 assertions in 11 test cases)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CryptoTest" end time: Apr 30 17:55 CEST
+"CryptoTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 30 17:55 CEST

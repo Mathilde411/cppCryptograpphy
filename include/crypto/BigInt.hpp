@@ -13,10 +13,25 @@ namespace Crypto {
     class BigInt {
     private:
         bool negative;
+        size_t dataSize;
         uint32_t* data;
 
     public:
+        explicit BigInt(int64_t value);
+
         BigInt();
+
+        ~BigInt();
+
+        BigInt(const BigInt& other);
+
+        BigInt& operator=(const BigInt& other);
+
+        BigInt(BigInt&& other) noexcept;
+
+        BigInt& operator=(BigInt&& other) noexcept;
+
+        std::string toString();
     };
 
 } // crypto
